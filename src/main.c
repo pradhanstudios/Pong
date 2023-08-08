@@ -334,6 +334,8 @@ int main(void)
     // unload vars
     UnloadMusicStream(background_music);
     UnloadTexture(bg);
+    UnloadTexture(ball_texture);
+    UnloadTexture(paddle_texture);
     // UnloadImage(icon);
 
     // deinitialize
